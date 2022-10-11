@@ -1,1 +1,43 @@
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+main{
+    border-radius: 5px;
+    border: solid;
+    padding: 20px;
+}
 
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.contP p{
+    line-height: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+input[type=number]{
+    height: 250px;
+    border: solid;
+    width: 175px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(193, 189, 189);
+    padding: 10px;
+    margin: 25px 15px;
+    font-size: 200px;
+    text-align: center;
+}
+
+input[type=number]:focus{
+    border-color: rgb(162, 190, 223);
+    outline: none;
+    border-width: 6px;
+    box-shadow: 0 10px 20px rgb(188, 185, 185);
+}
+
+::placeholder {
+    opacity: 0.2; 
+}
